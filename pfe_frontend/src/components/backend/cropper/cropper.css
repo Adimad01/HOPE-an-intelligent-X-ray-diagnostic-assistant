@@ -1,0 +1,12 @@
+.img-container {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.img-preview {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 10px;
+}

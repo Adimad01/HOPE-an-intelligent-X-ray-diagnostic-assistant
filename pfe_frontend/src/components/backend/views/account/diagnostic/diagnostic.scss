@@ -1,0 +1,38 @@
+.diagnostic-box{
+    background-color:white;
+    height:500px;
+    width:100%;
+    position:relative;
+    box-shadow: 0px 0px 10px  gray;
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    button{
+        padding:15px;
+    }
+    .drag-drop-box{
+        display:flex;
+
+        justify-content: center;
+        align-items: center;
+        width:90%;
+        height:80%;
+        border: 3px solid var(--primary-color);
+        border-style: dashed;
+        .text-upload{
+            font-weight:bold;
+            text-transform: uppercase;
+        }
+        .upload-image{
+            width:100px;
+            height:100px;
+        }
+        &.inside{
+            border:0px;
+            flex-direction: column;
+        }
+
+    }
+}

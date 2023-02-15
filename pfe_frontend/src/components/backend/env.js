@@ -1,0 +1,1 @@
+export const FAST_API_URL="HTTP://127.0.0.1:8001"

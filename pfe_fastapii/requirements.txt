@@ -1,0 +1,5 @@
+fastapi
+tensorflow
+scikit-image
+opencv-python
+numpy

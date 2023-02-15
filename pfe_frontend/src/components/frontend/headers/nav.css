@@ -1,0 +1,23 @@
+.logo {
+    margin: 0 70px;
+    width: 200px;
+    height: auto;
+}
+
+.nav-link{
+    font-weight:700;
+    transition:all 300ms;
+    margin-right:30px;
+}
+.nav-link:hover{
+    color:#388E3C;
+}
+.nav-link.primary-link{
+    background-color: #388E3C;
+    color:white;
+    border-radius: 50px;
+    padding:10px 30px;
+}
+.nav-link.primary-link:hover{
+    color:white;
+}

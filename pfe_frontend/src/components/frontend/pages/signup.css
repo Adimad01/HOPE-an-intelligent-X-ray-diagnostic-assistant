@@ -1,0 +1,35 @@
+.radio {
+    margin: 50px;
+}
+
+.input {
+    margin: 0 10px;
+}
+
+.signin {
+    width: 60%;
+    height: auto;
+    margin: 40% 0;
+}
+
+.SocialButtonsContainer {
+    text-align: left;
+}
+
+SocialButton[href="www.google.com"] {
+    margin-right: 10px;
+}
+
+.my-alert.alert-danger{
+    background-color: #E53935;
+    margin-bottom: 1em;
+    color:white;
+    border-radius: 10px;
+    padding:20px;
+}
+.p-error{
+    color:#E53935;
+}
+.MuiCircularProgress-colorPrimary {
+    color: white !important;
+}
